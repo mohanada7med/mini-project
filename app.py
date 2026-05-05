@@ -40,8 +40,6 @@ def index():
         conn.close()
 
         flash("Data saved successfully.")
-        return redirect(url_for("show_data"))
-
     return render_template("index.html")
 
 
